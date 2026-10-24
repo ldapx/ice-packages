@@ -2,3 +2,11 @@
 	path = ihp.sg13g2
 	url = https://github.com/ldapx/ice-pkg-ihp.git
 	branch = dev
+[submodule "sky130"]
+	path = sky130
+	url = https://github.com/ldapx/ice-pkg-sky130.git
+	branch = dev
+[submodule "gf180mcu"]
+	path = gf180mcu
+	url = https://github.com/ldapx/ice-pkg-gf180mcu.git
+	branch = dev

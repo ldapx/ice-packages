@@ -13,7 +13,9 @@ submodule working trees, so a package directory must contain:
 
 | Package | Repository | Branch |
 | --- | --- | --- |
+| `gf180mcu` | https://github.com/ldapx/ice-pkg-gf180mcu | `dev` |
 | `ihp.sg13g2` | https://github.com/ldapx/ice-pkg-ihp | `dev` |
+| `sky130` | https://github.com/ldapx/ice-pkg-sky130 | `dev` |
 
 ## Adding a package
 
