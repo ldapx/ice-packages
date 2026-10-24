@@ -1,0 +1,4 @@
+[submodule "ihp.sg13g2"]
+	path = ihp.sg13g2
+	url = https://github.com/ldapx/ice-pkg-ihp.git
+	branch = dev
