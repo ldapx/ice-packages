@@ -1,9 +1,9 @@
-# ICE Package Index
+# OpenVLSI Package Index
 
-This repository is the default package index used by ICE's
+This repository is the default package index used by OpenVLSI's
 **Project -> Manage Packages** dialog.
 
-Each indexed package is a Git submodule. ICE discovers package manifests in the
+Each indexed package is a Git submodule. OpenVLSI discovers package manifests in the
 submodule working trees, so a package directory must contain:
 
 - `package.toml` with the package name, version, and capabilities
@@ -28,7 +28,7 @@ git commit -m "Add <package-name> to the package index"
 git push
 ```
 
-The submodule path is normally the package name, but ICE also discovers package
+The submodule path is normally the package name, but OpenVLSI also discovers package
 manifests in nested submodule paths.
 
 Users can refresh the index from **Manage Packages** after it has been updated.
